@@ -45,11 +45,6 @@ body .container .ctn-Oclock .ctn:nth-child(2) {
   border-bottom: 2px solid #0084ff;
 }
 
-body .container .ctn-Oclock .ctn:nth-child(3) {
-  padding: 10px;
-  border-bottom: 2px solid #0084ff;
-}
-
 body .container .ctn-Oclock .ctn-fecha {
   color: #0084ff;
   text-shadow: 0 0 1px black;
