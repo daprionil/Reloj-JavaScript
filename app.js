@@ -19,11 +19,11 @@ function change (){
             minutes:date.getMinutes(),
             seconds:date.getSeconds(),
         };
-        
-        $.getJSON('http://api.wipmania.com/jsonp?callback=?', function (data) {
+
+        $.getJSON('https://api.wipmania.com/jsonp?callback=?', function (data) {
             document.getElementById("country").textContent = data.address.country;
         });
-
+        
         hora.textContent = `${dateHour.hour}:${dateHour.minutes}:${dateHour.seconds}`;
         fecha.textContent = `${dateFecha.day} ${monthNames[dateFecha.month]} ${dateFecha.year}`;
     },1000);
