@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 150%;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #00163b;
+}
+
+body .container {
+  background: whitesmoke;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+body .container .ctn-Oclock {
+  margin-top: 10px;
+}
+
+body .container .ctn-Oclock .ctn {
+  padding: 5px 15px;
+  text-align: center;
+}
+
+body .container .ctn-Oclock .ctn:nth-child(2) {
+  padding: 10px;
+  border-bottom: 2px solid #0084ff;
+}
+
+body .container .ctn-Oclock .ctn:nth-child(3) {
+  padding: 10px;
+  border-bottom: 2px solid #0084ff;
+}
+
+body .container .ctn-Oclock .ctn-fecha {
+  color: #0084ff;
+  text-shadow: 0 0 1px black;
+}
+
+body .container .ctn-Oclock footer {
+  text-align: center;
+  background: #00000018;
+  border-radius: 10px;
+}
+
+body .container .ctn-Oclock footer p {
+  padding: 5px 15px;
+  font-size: 60%;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
